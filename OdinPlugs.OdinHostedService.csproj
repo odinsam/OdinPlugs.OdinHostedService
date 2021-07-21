@@ -6,6 +6,7 @@
     <AssemblyName>OdinPlugs.OdinHostedService</AssemblyName>
     <RootNamespace>OdinPlugs.OdinHostedService</RootNamespace>
     
+    <OutputType>$(OdinOutputType)</OutputType>
     <PackageId>$(OdinPackageId)</PackageId>
     <Authors>$(OdinAuthors)</Authors>
     <Company>$(OdinCompany)</Company>
@@ -24,5 +25,8 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="images\icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OdinPlugs.OdinUtils\OdinPlugs.OdinUtils.csproj" />
   </ItemGroup>
 </Project>
