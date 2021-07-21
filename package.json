@@ -1,6 +1,6 @@
 {
     "name": "OdinPlugs.OdinHostedService",
-    "description": "OdinPlugs odinInject",
+    "description": "OdinPlugs OdinHostedService",
     "main": "index.js",
     "repository": {
         "type": "git",
@@ -13,7 +13,7 @@
         "url": "https://github.com/odinsam/OdinPlugs.OdinHostedService/issues"
     },
     "homepage": "https://github.com/odinsam/OdinPlugs.OdinHostedService#readme",
-    "version": "1.0.0",
+    "version": "1.0.5",
     "scripts": {
         "release": "standard-version",
         "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0"
